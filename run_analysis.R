@@ -175,4 +175,4 @@ colnames(tidy_data) <- c("subject", "activity",
 # independent tidy data set with the average of each variable for each activity 
 # and each subject.
 summary_mean <- tidy_data %>% group_by(subject, activity) %>% summarise_all(mean)
-write.csv(summary_mean, paste(getwd(), "summary_dataset.csv", sep = "/"), row.names = FALSE)
+write.table(summary_mean, paste(getwd(), "summary_dataset.txt", sep = "/"), row.names = FALSE)

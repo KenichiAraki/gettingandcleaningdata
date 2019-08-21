@@ -32,7 +32,7 @@ source dataset; i.e. the mean and standard deviation for each measurement.
 
 - "codebook.txt": the code book for the summary dataset.
 
-- "summary_dataset.csv": the dataset file. 
+- "summary_dataset.txt": the dataset file. 
 
 
 ## License
